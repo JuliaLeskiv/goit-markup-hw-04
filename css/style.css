@@ -79,6 +79,10 @@ body {
   display: flex;
 }
 
+.contacts-item {
+  align-items: center;
+}
+
 .header-nav,
 .header-adress {
   justify-content: space-between;
@@ -172,8 +176,13 @@ body {
 }
 
 .adress-icon {
+  margin-top: 5px;
   margin-right: 10px;
   fill: currentColor;
+}
+
+.envelope-4 {
+  margin-top: 50px;
 }
 
 .hero {
@@ -309,7 +318,7 @@ body {
 
 .social-item:hover .social-icon,
 .social-item:focus .social-icon {
-  fill: var(--back-white);
+  fill: var(--white-text);
 }
 
 .visual {
@@ -500,6 +509,11 @@ body {
 
 .footer .social-item {
   margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer .social-icon {
+  fill: var(--back-white);
 }
 
 /* Portfolio */
